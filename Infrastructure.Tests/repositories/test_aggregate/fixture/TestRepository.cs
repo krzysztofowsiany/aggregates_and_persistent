@@ -13,7 +13,7 @@ namespace Infrastructure.Tests.repositories.test_aggregate.fixture
             => Get<Test, Test.TestState>(testId.Value,
                 state => new Test(
                     state.Test1,
-                    state.Tekst1,
+                    state.Text1,
                     state.Int1,
                     state.Double1)
                 );
