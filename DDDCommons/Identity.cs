@@ -1,16 +1,15 @@
 namespace DDDCommons {
     using System;
 
-    public abstract class Identity {
+    public abstract class Identity
+    {
         public readonly Guid Value;
         protected Identity(Guid value) => Value = value;
-
+        
         public override bool Equals(object obj) =>
-            ReferenceEquals(null, obj) || obj.GetType() != GetType() 
-            ? false 
-            : ReferenceEquals(this, obj) 
-                ? true 
-                : Value.Equals(((Identity) obj).Value);
+            !ReferenceEquals(null, obj) 
+            && obj.GetType() == GetType() 
+            && (ReferenceEquals(this, obj) || Value.Equals( ((Identity)obj).Value));
 
         public override int GetHashCode() => Value.GetHashCode();
 
