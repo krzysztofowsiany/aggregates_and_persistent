@@ -1,15 +1,14 @@
 ﻿using System;
 using DDDCommons;
-using Domain.Visit;
 using LiteDB;
 
 namespace Infrastructure.Repositories
 {
-    public class RepositoryBase
+    public abstract class RepositoryBase
     {
-        protected readonly BsonMapper _mapper;
-        protected readonly string _collectionName;
-        protected readonly string _connectionString;
+        private readonly BsonMapper _mapper;
+        private readonly string _collectionName;
+        private readonly string _connectionString;
 
         protected RepositoryBase()
         {
