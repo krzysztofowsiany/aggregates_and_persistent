@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDomain", "TestDomain\TestDomain.csproj", "{BCB137D0-2A55-46EF-AE71-3395C30E6EAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tests", "Infrastructure.Tests\Infrastructure.Tests.csproj", "{2C35B13B-A0E1-4522-93C5-86C885D14193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{BCB137D0-2A55-46EF-AE71-3395C30E6EAE}.Release|x64.Build.0 = Release|Any CPU
 		{BCB137D0-2A55-46EF-AE71-3395C30E6EAE}.Release|x86.ActiveCfg = Release|Any CPU
 		{BCB137D0-2A55-46EF-AE71-3395C30E6EAE}.Release|x86.Build.0 = Release|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Debug|x64.Build.0 = Debug|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Debug|x86.Build.0 = Debug|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Release|x64.ActiveCfg = Release|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Release|x64.Build.0 = Release|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Release|x86.ActiveCfg = Release|Any CPU
+		{2C35B13B-A0E1-4522-93C5-86C885D14193}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
